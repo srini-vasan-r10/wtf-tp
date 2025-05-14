@@ -19,8 +19,9 @@ WTF-TP is a simple FTP server application built using Python and PyQt5. It allow
 
 1.  **Clone the repository:**
     ```bash
-    git clone <repository_url>
+    mkdir wtftp
     cd wtftp
+    git clone <repository_url>
     ```
 2.  **Install the requirements:**
     ```bash
@@ -28,7 +29,6 @@ WTF-TP is a simple FTP server application built using Python and PyQt5. It allow
     ```
 3.  **Make it as an executable**
     ```bash
-    cd /locationtourdir/wtf-tp.py
     chmod +x ./wtf-tp.py
     ```
 4.  **Run the file**
