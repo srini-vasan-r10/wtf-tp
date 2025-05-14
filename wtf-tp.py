@@ -93,15 +93,17 @@ class FTPServerSetup(QWidget):
     def detect_drives(self):
         drives = []
         user = os.getlogin()
-        possible_mount_prefixes = [f"/media/{user}/", "/mnt/"]
+        possible_mount_prefixes = [
+            f"/media/{user}/",
+            "/mnt/",
+            f"/run/media/{user}/",
+        ]
         for partition in psutil.disk_partitions():
             if partition.mountpoint != '/':
                 for prefix in possible_mount_prefixes:
                     if partition.mountpoint.startswith(prefix):
                         drives.append(partition.mountpoint)
                         break
-                if "media" in partition.mountpoint and not partition.mountpoint.startswith(f"/media/{user}/"):
-                    drives.append(partition.mountpoint)
         return drives
 
     def update_drive_dropdown(self, checked):
