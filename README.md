@@ -10,7 +10,6 @@ WTF-TP is a simple FTP server application built using Python and PyQt5. It allow
 * **User Authentication:** Control access to your files with username and password authentication.
 * **Directory Selection:** Choose the directory you want to share via FTP.
 * **Graphical Interface:** A user-friendly interface for managing your FTP server.
-* **User Configurable username and password:** Configure the default username and password in the creds.json file.
 
 ## Pre-Requisites
 * Need to be in same Wifi connection as your linux machine.
