@@ -24,11 +24,16 @@ WTF-TP is a simple FTP server application built using Python and PyQt5. It allow
     ```
 2.  **Install the requirements:**
     ```bash
-    bash reqs.sh
+    python3 -m pip install pyftpdlib
     ```
-3.  **Run the application:**
+3.  **Make it as an executable**
     ```bash
-    python3 wtf-tp.py
+    cd /locationtourdir/wtf-tp.py
+    chmod +x ./wtf-tp.py
+    ```
+4.  **Run the file**
+    ```bash
+    ./wtf-tp.py
     ```
 
 ## Usage
