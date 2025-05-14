@@ -1,3 +1,5 @@
+![screenshot of the tool](/sc/sc.png)
+
 # WTF-TP: Your Simple FTP Server
 
 WTF-TP is a simple FTP server application built using Python and PyQt5. It allows you to quickly set up a local FTP server for file sharing.
