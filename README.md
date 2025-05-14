@@ -30,7 +30,7 @@ WTF-TP is a simple FTP server application built using Python and PyQt5. It allow
     ```bash
     mkdir wtftp
     cd wtftp
-    git clone <repository_url>
+    git clone https://github.com/srini-vasan-r10/wtf-tp.git
     ```
 2.  **Install the requirements:**
     ```bash
