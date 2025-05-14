@@ -34,7 +34,7 @@ WTF-TP is a simple FTP server application built using Python and PyQt5. It allow
     ```
 2.  **Install the requirements:**
     ```bash
-    python3 -m pip install pyftpdlib
+    python3 -m pip install pyftpdlib psutil socket pyqt5
     ```
 3.  **Make it as an executable**
     ```bash
