@@ -16,6 +16,7 @@ WTF-TP is a simple FTP server application built using Python and PyQt5. It allow
 * Need to be in same Wifi connection as your linux machine.
 * Currently only developed for Debain based linux distros with Apt package manager.
 * Mobile Hotspot is also counted as being in same wifi connection.
+* The external drive is to be mounted before accesing it through the tool.
 
 ## Requirements
 
